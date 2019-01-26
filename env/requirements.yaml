@@ -16,4 +16,5 @@ dependencies:
   version: 5.3.0
 - alias: db1
   name: mongodb
+  repository: file://../mongodb 
   version: 5.3.0
