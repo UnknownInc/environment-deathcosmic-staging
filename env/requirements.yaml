@@ -1,4 +1,7 @@
 dependencies:
+- name: account
+  repository: http://jenkins-x-chartmuseum:8080
+  version: 0.0.2
 - alias: expose
   name: exposecontroller
   repository: http://chartmuseum.jenkins-x.io
@@ -10,11 +13,11 @@ dependencies:
 - name: m360
   repository: http://jenkins-x-chartmuseum:8080
   version: 0.0.14
-- alias: fecache
-  name: redis
-  repository: https://kubernetes-charts.storage.googleapis.com
-  version: 5.3.0
 - alias: db1
   name: mongodb
+  repository: https://kubernetes-charts.storage.googleapis.com
+  version: 5.3.0
+- alias: fecache
+  name: redis
   repository: https://kubernetes-charts.storage.googleapis.com
   version: 5.3.0
